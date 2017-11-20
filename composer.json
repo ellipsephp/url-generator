@@ -1,0 +1,42 @@
+{
+    "name": "ellipse/url-generator",
+    "type": "library",
+    "description": "Url generator based on ellipse router adapter",
+    "keywords": [
+        "router",
+        "url",
+        "url-generator"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/ellipsephp/url-generator",
+    "support": {
+        "issues": "https://github.com/ellipsephp/url-generator/issues",
+        "source": "https://github.com/ellipsephp/url-generator"
+    },
+    "authors": [
+        {
+            "name": "pmall",
+            "email": "pierre.mallinjoud@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1",
+        "ellipse/router-adapter": "^1.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^4.0",
+        "eloquent/phony-kahlan": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ellipse\\Router\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
